@@ -1,0 +1,23 @@
+{
+  "name": "solar-monitor",
+  "version": "1.0.0",
+  "description": "webservice for monitoring primos solar water heater",
+  "main": "index.js",
+  "author": "Philip Hayton",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@types/yargs": "^15.0.4",
+    "express": "^4.17.1",
+    "primos-log-parser": "^1.1.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3",
+    "yargs": "^15.1.0"
+  },
+  "scripts": {
+    "dev": "ts-node ./src/server.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.7"
+  }
+}
